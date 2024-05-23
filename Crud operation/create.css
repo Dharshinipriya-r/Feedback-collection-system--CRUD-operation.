@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.pro a {
+    color: black;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: 0.3x;
+   padding: 4px;
+   border-radius: 2px;
+   border:1px solid transparent;
+   
+   gap: 16px;
+   flex-direction: row;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.project{
+   color:#1a821d;
+   padding: 32px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   align-items: center;
+   flex-direction: row;
+}
+
+#home{
+   color: black;
+   font-weight: 300;
+ 
+  }
+  .container {
+ width: 300px ;
+ height: 100% ;
+ margin: 50px auto;
+ background-color: #fff;
+ margin-top: auto;
+ border-radius: 5px;
+ box-shadow: 0 0 30px black ;
+
+}
+
+#register{
+   border: 1px solid #1a821d;
+}
+
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+section {
+    margin: 0 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .save-button, .cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .save-button {
+    background-color:  #1a821d;;
+  }
+  .cancel-button {
+    background-color: rgb(42, 58, 238);
+  }
+input, button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
